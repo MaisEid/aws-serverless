@@ -17,9 +17,11 @@ provider:
   stage: prod
   region: us-east-1
   cfLogs: true
+  profile: learnServerless
   stackTags:
   AppName: ${self:service}
   Namespace: ${self:custom.namespace}
+  Author: Mais Eid 
 
 # you can add statements to the Lambda function's IAM Role here
 iamRoleStatements:

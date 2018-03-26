@@ -30,7 +30,7 @@ export async function queryGet(event, context, callback) {
 
   try {
     const result = await dynamoDbLib.call("query", queryParams);
-    callback(null, success(result.Items));
+    callback(null, success(result));
   } catch (e) {
     callback(null, failure({ status: false }));
   }
@@ -48,9 +48,10 @@ export async function scanGet(event, context, callback) {
   };
 
   try {
-    var Review = await dynamoDbLib.call("scan", scanParams);
+    var result = await dynamoDbLib.call("scan", scanParams);
     // Return the matching list of items in response body
-    callback(null, success(result.Items));
+    console.log(result);
+    callback(null, success(result));
   } catch (e) {
     callback(null, failure({ status: false }));
   }

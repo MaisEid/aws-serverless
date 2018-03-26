@@ -7,10 +7,12 @@ export async function main(event, context, callback) {
     // 'Key' defines the partition key and sort key if it was exsit of the item to be removed
     // - 'noteId': path parameter
     Key: {
-      quoteId: event.pathParameters.id
+      quoteId: event.pathParameters.quoteId
     }
   };
 
+  console.log(event.pathParameters.quoteId)
+  
   try {
     const result = await dynamoDbLib.call("delete", params);
     callback(null, success({ status: true }));

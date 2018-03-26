@@ -9,7 +9,7 @@ export async function main(event, context, callback) {
     // - 'userId': Identity Pool identity id of the authenticated user
     // - 'noteId': path parameter
     Key: {
-      noteId: event.pathParameters.qouteId
+      quoteId: event.pathParameters.quoteId
     },
     // 'UpdateExpression' defines the attributes to be updated
     // 'ExpressionAttributeValues' defines the value in the update expression
@@ -23,7 +23,7 @@ export async function main(event, context, callback) {
 
   try {
     const result = await dynamoDbLib.call("update", params);
-    callback(null, success({ status: true }));
+    callback(null, success(result));
   } catch (e) {
     callback(null, failure({ status: false }));
   }

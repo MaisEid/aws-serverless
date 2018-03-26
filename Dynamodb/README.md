@@ -44,4 +44,7 @@ $ npm install aws-sdk --save-dev
 $ npm install uuid --save
 
 
+aws_access_key_id = AKIAJPYES2XIHH7RF3PQ
+aws_secret_access_key = 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
 
+serverless config credentials --provider aws --key AKIAJPYES2XIHH7RF3PQ --secret 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 --profile learnServerless

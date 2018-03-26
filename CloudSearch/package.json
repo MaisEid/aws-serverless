@@ -1,17 +1,21 @@
 {
-  "name": "Dynamodb",
+  "name": "cloudsearch",
   "version": "1.0.0",
-  "description": "Serverless REST API with DynamoDB",
-  "main": "create.js",
+  "description": "",
+  "main": "handler.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.213.1",
+    "babel-runtime": "^6.26.0",
+    "serverless-offline": "^3.18.0"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
@@ -21,12 +25,5 @@
     "serverless-webpack": "^5.1.1",
     "webpack": "^4.2.0",
     "webpack-node-externals": "^1.6.0"
-  },
-  "dependencies": {
-    "aws-sdk": "^2.213.1",
-    "babel-runtime": "^6.26.0",
-    "save-dev": "^2.0.0",
-    "serverless-offline": "^3.18.0",
-    "uuid": "^3.2.1"
   }
 }
