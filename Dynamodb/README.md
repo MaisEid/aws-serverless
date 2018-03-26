@@ -43,5 +43,3 @@ $ npm init -y
 $ npm install aws-sdk --save-dev
 $ npm install uuid --save
 
-
-
