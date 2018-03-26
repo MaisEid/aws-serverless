@@ -37,9 +37,6 @@ iamRoleStatements:
       Resource: "arn:aws:dynamodb:us-east-1:*:*"
 
 functions:
-  hello:
-    handler: handler.hello
-
   createQuote:
     handler: create.main
     events:
