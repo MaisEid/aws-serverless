@@ -1,7 +1,7 @@
 # Serverless Framework with AWS examples
 
 
-Serverless computing will shape the future of web development since it allows you to get rid of many issues "traditional" web hosting.
+Serverless computing will shape the future of web development since it allows you to get rid of many issues as opertional cost , time for environment setup 
 This reposository contain 3 example for aws-serverless integraded with diffrent data source 
 
 
