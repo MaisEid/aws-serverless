@@ -3,7 +3,7 @@
 
 Serverless computing will shape the future of web development since it allows you to get rid of many issues as 
 
-1. Operationaland deployement costs
+1. Operational and deployement costs
 2. Less time to focuse on user-experince 
 3. Time an cost for scalability 
 4. Time to be in the market 
