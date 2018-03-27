@@ -9,7 +9,7 @@ Serverless computing will shape the future of web development since it allows yo
 
 This repository contains 3 examples for using using serverless architecture in building RESTfull API connected to the following data sources 
 * NoSQL DB (Dynamo DB )
-* SQL DB (Postgres) hosted in AWS via AWS-RDS service
+* SQL DB (Postgres) hosted in AWS via RDS service
 * AWS-Cloudsearch 
 
 
