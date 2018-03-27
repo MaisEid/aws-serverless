@@ -6,9 +6,9 @@ This reposository contain 3 example for aws-serverless integraded with diffrent 
 
 
 ## Getting Started
- 1- clone the project in your local machine 
- 2- install required pakages 
- 3- run the project
+ 1. clone the project in your local machine 
+ 2. install required pakages 
+ 3. run the project
 ### Prerequisites
 
 * Node.js v6.5.0 or later.
