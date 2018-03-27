@@ -1,8 +1,17 @@
 # Serverless Framework with AWS examples
 
 
-Serverless computing will shape the future of web development since it allows you to get rid of many issues as opertional cost , time for environment setup 
-This reposository contain 3 example for aws-serverless integraded with diffrent data source 
+Serverless computing will shape the future of web development since it allows you to get rid of many issues as 
+
+1. Operationaland deployement costs
+2. Less time to focuse on user-experince 
+3. Time an cost for scalability 
+4. Time to be in the market 
+
+This reposository contain 3 example for aws-serverless integraded with diffrent data source
+* non-sql DB Dynamo DB 
+* sql DB Postgres hosted in AWS via AWS-RDS service
+* AWS-Cloudsearch 
 
 
 ## Getting Started
