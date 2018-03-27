@@ -7,9 +7,9 @@ Serverless computing will shape the future of web development since it allows yo
 2. Time and cost for scalability 
 3. Time to be in the market 
 
-This repository contains 3 examples for aws-serverless integrated with different data source
-* non-sql DB Dynamo DB 
-* sql DB Postgres hosted in AWS via AWS-RDS service
+This repository contains 3 examples for using using serverless architecture in building RESTfull API connected to the following data sources 
+* NoSQL DB (Dynamo DB )
+* SQL DB (Postgres) hosted in AWS via AWS-RDS service
 * AWS-Cloudsearch 
 
 
