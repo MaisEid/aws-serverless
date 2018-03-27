@@ -6,16 +6,15 @@ This reposository contain 3 example for aws-serverless integraded with diffrent 
 
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+ 1- clone the project in your local machine 
+ 2- install required pakages 
+ 3- run the project
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* Node.js v6.5.0 or later.
+* Serverless CLI v1.9.0 or later. You can run npm install -g serverless to install it.
+* An AWS account. If you don't already have one, you can sign up for a free trial that includes 1 million free Lambda requests per month.
+* Set-up your Provider Credentials. Watch the video on setting up credentials
 
 ### Installing
 
