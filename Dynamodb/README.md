@@ -36,7 +36,7 @@ serverless config credentials --provider aws --key ******** --secret ***********
 $ sls create --template aws-nodejs --name <name>
 ```
 
-2. Install AWS Related Dependencies
+2. creat pkage.json file and add needed packges
 ```
 $ npm init -y
 $ npm install aws-sdk --save-dev
