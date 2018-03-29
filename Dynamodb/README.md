@@ -12,19 +12,21 @@ After implemenatig this small project I found that DynmoDB
 
 
 # Setup: 
-1. Create AWS account 
-2. install serverless 
+1. install serverless 
+```
 npm i -g serverless
+```
+2. Configure the aws access key and secret key 
 
-3. Configure the aws access key and secret key 
+* key: AWS access key 
+* secret : AWS secret Key
+* profile : setup profile name for the provided key 
 
-serverless config credentials 
---provider aws --key ******** --secret *********** 
---profile daynmo-serverless
+```
+serverless config credentials --provider aws --key ******** --secret *********** --profile daynmo-serverless
+```
 
-
-# Create serverless project:
-
+# Steps 
 1. Create templeate 
 $ sls create --template aws-nodejs --name <name>
  by entering this command you will have the template of serverless project 
