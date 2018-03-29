@@ -36,11 +36,33 @@ serverless config credentials --provider aws --key ******** --secret ***********
 $ sls create --template aws-nodejs --name <name>
 ```
 
-2.create package.json file and add needed packages
+2.Create package.json file and add needed packages
 ```
 $ npm init -y
 $ npm install aws-sdk --save-dev
 $ npm install uuid --save
 ```
+3. Create "Lib" folder which contain common functionallty shared accross all API 
 
-
+3.1 create response-lib.js : build a basic shared response object
+```
+export function success(body) {
+    return buildResponse(200, body);
+  }
+  
+  export function failure(body) {
+    return buildResponse(500, body);
+  }
+  
+  function buildResponse(statusCode, body) {
+    return {
+      statusCode: statusCode,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": true
+      },
+      body: JSON.stringify(body)
+    };
+  }
+```
+3.2 create dynamodb-lib.js : This file has one instance to call aws-sdk dy
