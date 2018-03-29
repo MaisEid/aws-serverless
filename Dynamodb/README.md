@@ -28,14 +28,19 @@ serverless config credentials --provider aws --key ******** --secret ***********
 
 # Steps 
 1. Create templeate 
-$ sls create --template aws-nodejs --name <name>
- by entering this command you will have the template of serverless project 
+ by running this command you will have the template of serverless project 
  which contain the 
  serveless.yaml -->  you can define the infrastructure resources you need in projct 
  handler.js -->  File contain example of lambda function which called in one of the http request
+```
+$ sls create --template aws-nodejs --name <name>
+```
 
 2. Install AWS Related Dependencies
+```
 $ npm init -y
 $ npm install aws-sdk --save-dev
 $ npm install uuid --save
+```
+
 
